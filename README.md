@@ -15,3 +15,18 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # flutter-remember
+
+## git 初始化
+echo "# flutter-remember" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/huhong118/flutter-remember.git
+git push -u origin main
+
+## 安装依赖
+flutter pub get
+
+## 运行项目
+flutter run
